@@ -24,7 +24,7 @@ object FriendsByAge {
       // Split by commas
       val fields = line.split(",")
       // Create a tuple that is our result.
-      (fields(2).toInt, fields(3).toInt)
+      (fields(1), fields(3).toInt)
     })
     
     // Lots going on here...
